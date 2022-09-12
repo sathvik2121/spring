@@ -81,9 +81,9 @@ public class SpringDemoApplication {
 	}
 
 	@GetMapping("/testing")
-	public String run(@RequestParam String id)
+	public String run(@RequestParam String id, @RequestParam int a)
 	{
-		return "ID: " + id;
+		return "ID: " + id +a;
 }
 
 	}
