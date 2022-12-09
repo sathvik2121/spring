@@ -106,9 +106,9 @@ public class generationtest {
 	{
 		@ResponseBody
 	    @RequestMapping("/get")
-	public String getObj(@RequestParam(name="object")details Details)
+	public String getObj()
 	{
-		return Details.a+"ok"+Details.s;
+		return "hi";
 	}
 }
 }
