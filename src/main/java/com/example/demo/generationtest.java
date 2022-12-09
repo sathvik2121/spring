@@ -101,14 +101,11 @@ public class generationtest {
 		this.s=s;
 	}
 	}
-	@RequestMapping("/object")
-	class getdetails
-	{
+	
 		
 	    @GetMapping("/get")
 	public String getObj()
 	{
 		return "hi";
 	}
-}
 }
