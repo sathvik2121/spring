@@ -104,8 +104,8 @@ public class generationtest {
 	@RequestMapping("/object")
 	class getdetails
 	{
-		@ResponseBody
-	    @RequestMapping("/get")
+		
+	    @GetMapping("/get")
 	public String getObj()
 	{
 		return "hi";
